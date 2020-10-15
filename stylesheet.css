@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F7F7FF;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #EC7063;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 1170px;
+  width:100%;
+  margin: 0px auto;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 45px;
+  padding-top: 17px;
+  padding-left: 15px;       
+}
+
+.menu {
+  float:right;
+  
+}
+
+.menu a {
+  display: block;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  color: white;
+}
+
+.menu a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0; 
+  display: none !important;
+}
+
+.menuitem {
+  
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  overflow: hidden;
+  margin: 0px auto;
+  background-image: url(https://cdn.trendhunterstatic.com/thumbs/cool-backgrounds.jpeg);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.9; 
+}
+
+.right {
+  background-color: #eee7e7;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.content {
+  float: left;
+  width : 20%;
+}
+
+.content img {
+  border-radius: 50px;
+}
+
+.clear {
+  clear: left;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+ opacity: 1;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  background-color: rgb(233, 89, 73);
+  cursor: pointer;
+  box-shadow: 0 7px rgb(197, 139, 132);
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  background-color: #EC7063;
+  padding: 10px 20px;
+  
+}
+
+footer p {
+  color: #222f3e;
+  font-size: 12px;
+  text-align: center
+  padding : 10px 20px;
+  
+}
+
+footer h2 {
+  line-height: 0.1;
+  text-align:left;
+  color: black;
+}
+

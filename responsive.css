@@ -1,0 +1,48 @@
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block !important;
+    margin-right: 20px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    margin-left: 20px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .btn {
+    width: 80%;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
